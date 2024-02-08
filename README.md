@@ -1,19 +1,38 @@
 # Car Price Prediction System
 
-Steps :
+The main tasks in this project include:
 
-1.Downloading the dataset {https://www.kaggle.com/CooperUnion/cardataset} :
+#Data Preprocessing:
 
-2.Exploratory data analysis:
-   • The distribution of the target variable
-   • The features in this dataset
-   • The number of missing values
-   • Handle Categorical Variables
+	Naming_Convention 
+ 
+   Handling missing data 
+   
+#Data Analysis:
 
-3.Splitting Data into validation, test, and training sets
+    Encoding categorical variables (using One-Hot Encoding)
+    
+    Check outliers
+    
+#Feature Engineering and Importance: 
 
-4.Validating the model and try many models
+	Create a new feature
+ 
+#Model Development:
 
-5.Try Simple feature engineering
+	Create Features and Labels from Dataframe
+ 
+	Splitting Data into Train , Validation and Test
+ 
+    Use LinearRegression and Ridge models 
+    
+#Visualization: 
 
-6.Choose the model with the best accuracy 
+    Analyzing data 
+    
+    Visualizing model results.
+    
+#Documentation: 
+
+    Creating a well-structured notebook with detailed explanations of all processes and code
+	
